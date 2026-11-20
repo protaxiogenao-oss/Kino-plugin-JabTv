@@ -1,0 +1,40 @@
+{
+  "id": "jable",
+  "name": "Jable.TV",
+  "version": "1.0.0",
+  "apiVersion": 6,
+  "entry": "plugin.js",
+  "description": "JAV de jable.tv. HLS prioritario, Uncensored, búsqueda y secciones Home. Solo +18.",
+  "author": "Hotaru Yume",
+  "creator": "hotaruyume",
+  "homepage": "https://jable.tv",
+  "hosts": [
+    "jable.tv",
+    "*.jable.tv",
+    "en.jable.tv",
+    "jp.jable.tv",
+    "assets-cdn.jable.tv",
+    "*.mushroomtrack.com",
+    "*.akamaized.net",
+    "*.cloudfront.net"
+  ],
+  "streamHosts": "any",
+  "capabilities": [
+    "search",
+    "home",
+    "browse",
+    "resolve"
+  ],
+  "categories": [
+    "adult"
+  ],
+  "color": "#FF2D6A",
+  "icon": "icon.png",
+  "theme": {
+    "accent": "#FF2D6A",
+    "onAccent": "#FFFFFF",
+    "background": "#0D0D0D",
+    "surface": "#1A1A1A",
+    "highlight": "#FF5C8A"
+  }
+}
